@@ -1,0 +1,14 @@
+#include <iostream.h>
+
+int main(int argc, char* args[]) {
+    int complier = 0;
+    char str[] = "i am a student\n\r";
+    return complier;
+}
+
+int max(int a, int b) {
+    if (a > b) {
+        return a;
+    }
+    return b;
+}
