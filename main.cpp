@@ -37,14 +37,11 @@ public:
         }
         wordItem->sum = 0;
         wordItem->syn = -1;
-        wordItem->linkTable = nullptr;
         if (wordItem->linkTable != nullptr)
         {
             delete wordItem->linkTable;
             wordItem->token = nullptr;
         }
-
-        static int i = 0;
 
         for (auto handler = this->processor.begin(); handler != this->processor.end(); handler++)
         {
