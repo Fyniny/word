@@ -18,4 +18,4 @@ $(processor) : $(processorsource)
 afx.o : afx.h afx.cpp
 	g++ -c afx.cpp
 clean :
-	rm $(obj)
+	rm $(obj) wordmachine
