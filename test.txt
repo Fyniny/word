@@ -1,14 +1,7 @@
-#include <iostream.h>
+#include <iostream>
+#include "hello.h"
 
-int main(int argc, char* args[]) {
-    int complier = 0;
-    char str[] = "i am a student\n\r";
-    return complier;
-}
-
-int max(int a, int b) {
-    if (a > b) {
-        return a;
-    }
-    return b;
+int hello(){
+    std::cout << "hello i am a test!\n";
+    return 1;
 }
